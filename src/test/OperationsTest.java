@@ -43,4 +43,5 @@ public class OperationsTest {
         calculator.execute("-");
         assertEquals(new BigDecimal(16), calculator.getAccumulator());
     }
+
 }

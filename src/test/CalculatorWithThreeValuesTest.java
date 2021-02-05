@@ -45,4 +45,5 @@ public class CalculatorWithThreeValuesTest {
         calculator.drop();
         assertEquals(value1,calculator.getAccumulator());
     }
+
 }

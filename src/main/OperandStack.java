@@ -4,7 +4,6 @@ import java.math.BigDecimal;
 import java.util.Stack;
 
 public class OperandStack {
-
     private Stack<BigDecimal> values = new Stack<>();
 
     public BigDecimal peek(){

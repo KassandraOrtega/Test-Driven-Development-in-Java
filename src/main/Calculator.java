@@ -1,7 +1,6 @@
 package main;
 
 import java.math.BigDecimal;
-import java.util.Stack;
 
 public class Calculator {
     private OperandStack values = new OperandStack();
@@ -26,7 +25,6 @@ public class Calculator {
         Operation addOperation = new AddOperation();
         addOperation.apply(values);
     }
-
     public void subtract() {
         Operation subtractOperation = new SubtractOperation();
         subtractOperation.apply(values);

@@ -3,6 +3,7 @@ package main;
 import java.math.BigDecimal;
 
 public abstract class BinaryOperation implements Operation{
+
     @Override
     public void apply(OperandStack values){
         BigDecimal value1 = values.peek();

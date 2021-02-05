@@ -57,4 +57,5 @@ public class OperandStackClass {
         stack.pop();
         assertEquals(BigDecimal.ZERO, stack.peek());
     }
+
 }

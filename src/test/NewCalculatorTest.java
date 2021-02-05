@@ -26,4 +26,5 @@ public class NewCalculatorTest {
         calculator.setAccumulator(value);
         assertEquals(value, calculator.getAccumulator());
     }
+
 }
